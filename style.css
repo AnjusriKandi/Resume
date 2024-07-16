@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+.profile{
+background-color: rgb(23, 47, 108);
+display: flex;
+margin:5px;
+padding:20px;
+color: white;
+margin-bottom: 0;
+}
+.profile h1{
+    font-size:3.5em;
+    padding:70px;
+}
+img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+    
+}
+.basic{
+    background-color: rgb(210, 207, 207);
+    max-width: 700px;
+    margin-left:5px;
+    padding:30px;
+    line-height: 1.5;
+}
+.basic h3{
+    padding-top:12px;
+    padding-bottom: 7px;    
+}
+.prof{
+   margin-left:5px;
+   padding: 30px 40px;
+   line-height:1.5;
+}
+.prof h3{
+    padding-top:12px;
+    padding-bottom: 7px;
+}
+span{
+    color: rgb(170, 172, 172);
+}
+.prof h4{
+    padding-top:3px;
+}
+.prof ul{
+    padding-left:20px;    
+}
